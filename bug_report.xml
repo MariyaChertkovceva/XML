@@ -1,1 +1,13 @@
-
+<bug>
+ <ID>527</ID>
+ <Environment>Win 10 Chrome 114</Environment>
+ <Title>The Link [Cookies Policy] in the block 'Capital Com Stock and CFD Investing Ltd (FSA)' and the block 'Capital Com Online Investments Ltd' on the page 'Terms and Policies' are not translated into any language then EN</Title>
+   <Steps>
+     <1>Navigate to capital.com</1>
+     <2>Click button [Trade] in the header</2>
+     <3>Click link 'Privacy Policy'</3>
+     <4>Select any language other than EN</4>
+   </Steps>
+  <ER>The Link [Cookies Policy] in the block  'Capital Com Stock and CFD Investing Ltd (FSA)' and the block 'Capital Com Online Investments Ltd' on the page 'Terms and Policies' are translated into any selected language<ER>
+  <AR>The Link [Cookies Policy] in the block  'Capital Com Stock and CFD Investing Ltd (FSA)' and the block 'Capital Com Online Investments Ltd' on the page 'Terms and Policies' are not translated into any selected language then EN</AR>
+</bug>
